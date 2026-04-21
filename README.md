@@ -1,10 +1,33 @@
 # Experimental verification of Signal sampling using various types
 # Aim
 Write a simple Python program for the construction and reconstruction of ideal, natural, and flattop sampling.
-# Tools required
+# Tools Required
 
-Google Colab
+- Google Colab
+- Python
+- NumPy Library
+- Matplotlib Library
+- Internet Connection
+- Computer / Laptop
 
+# Theory
+
+Sampling is the process of converting a continuous-time analog signal into a discrete-time signal by taking the values of the signal at regular time intervals. It is widely used in digital communication systems, signal processing, and data conversion.
+
+According to the Nyquist Sampling Theorem, the sampling frequency must be at least twice the highest frequency present in the message signal to reconstruct the original signal without distortion.
+
+Types of Sampling
+1. Ideal Sampling
+
+In ideal sampling, the analog signal is multiplied by an impulse train of very short duration. The sampled output consists of instantaneous values of the signal at equally spaced intervals. It is theoretical and not practically realizable.
+
+2. Natural Sampling
+
+In natural sampling, the analog signal is sampled using pulses of finite width. During the pulse duration, the top of each pulse follows the shape of the input signal. It is more practical than ideal sampling.
+
+3. Flat-top Sampling
+
+In flat-top sampling, the sampled value remains constant during the pulse width. The amplitude of each sample equals the signal value at the start of sampling instant. This method is commonly used in practical sample-and-hold circuits.
 # Program
 ```python
 import numpy as np
