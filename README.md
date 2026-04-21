@@ -1,4 +1,4 @@
-# Ideal, Natural, & Flat-top -Sampling
+# Experimental verification of Signal sampling using various types
 # Aim
 Write a simple Python program for the construction and reconstruction of ideal, natural, and flattop sampling.
 # Tools required
